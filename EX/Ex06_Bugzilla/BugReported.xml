@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE bugzilla SYSTEM "bugzilla.dtd">
+
+<bugzilla version="4.0+"
+          urlbase=""
+          
+          maintainer="1461390@gmail.com"
+          exporter="1461390@gmail.com"
+>
+
+    <bug>
+          <bug_id>1</bug_id>
+          
+          <creation_ts>2016-04-24 08:41:00 +0700</creation_ts>
+          <short_desc>Tính tổng tiền sai khi nhập loại phòng loại B ,  số ngày đi và ngày đến chung  một ngày , giảm giá 10%</short_desc>
+          <delta_ts>2016-04-24 08:45:06 +0700</delta_ts>
+          <reporter_accessible>1</reporter_accessible>
+          <cclist_accessible>1</cclist_accessible>
+          <classification_id>1</classification_id>
+          <classification>Unclassified</classification>
+          <product>Tính tổng tiền phòng</product>
+          <component>Tổng tiền</component>
+          <version>1.0</version>
+          <rep_platform>PC</rep_platform>
+          <op_sys>Windows</op_sys>
+          <bug_status>CONFIRMED</bug_status>
+          
+          
+          
+          
+          
+          
+          <priority>---</priority>
+          <bug_severity>normal</bug_severity>
+          <target_milestone>---</target_milestone>
+          
+          
+          <everconfirmed>1</everconfirmed>
+          <reporter name="Vu Manh Hung">1461390@gmail.com</reporter>
+          <assigned_to name="Vu Manh Hung">1461390@gmail.com</assigned_to>
+          
+          <estimated_time>0.00</estimated_time>
+          <remaining_time>0.00</remaining_time>
+          <actual_time>0.00</actual_time>
+          
+
+      
+          <token>1461463660-55a8bb406c1d6c5b1029dec3b577a8c0</token>
+
+      
+
+      
+
+          <long_desc isprivate="0">
+            <commentid>1</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:41:18 +0700</bug_when>
+            <thetext>1.Nhập loại phòng &quot;B&quot;
+2.Nhập số lượng người &quot;3&quot;
+3. Nhập ngày đến &quot;01/01/2016&quot;
+4.Nhập ngày đi &quot;01/01/2016&quot;
+5.Nhập tiền dịch vụ &quot;2.000.000&quot;</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>2</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:42:37 +0700</bug_when>
+            <thetext>Tính tổng tiền phòng sai</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>3</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:45:06 +0700</bug_when>
+            <thetext>Tính tổng tiền phòng sai</thetext>
+          </long_desc>
+      
+      
+
+    </bug>
+    <bug>
+          <bug_id>2</bug_id>
+          
+          <creation_ts>2016-04-24 08:47:00 +0700</creation_ts>
+          <short_desc>Tính tổng tiền sai khi nhập loại phòng C, giảm giá 20%</short_desc>
+          <delta_ts>2016-04-24 08:47:44 +0700</delta_ts>
+          <reporter_accessible>1</reporter_accessible>
+          <cclist_accessible>1</cclist_accessible>
+          <classification_id>1</classification_id>
+          <classification>Unclassified</classification>
+          <product>Tính tổng tiền phòng</product>
+          <component>Tổng tiền</component>
+          <version>1.0</version>
+          <rep_platform>PC</rep_platform>
+          <op_sys>Windows</op_sys>
+          <bug_status>CONFIRMED</bug_status>
+          
+          
+          
+          
+          
+          
+          <priority>---</priority>
+          <bug_severity>enhancement</bug_severity>
+          <target_milestone>---</target_milestone>
+          
+          
+          <everconfirmed>1</everconfirmed>
+          <reporter name="Vu Manh Hung">1461390@gmail.com</reporter>
+          <assigned_to name="Vu Manh Hung">1461390@gmail.com</assigned_to>
+          
+          <estimated_time>0.00</estimated_time>
+          <remaining_time>0.00</remaining_time>
+          <actual_time>0.00</actual_time>
+          
+
+      
+          <token>1461463660-500fbf963f1c2c44bf36dfa7390e2026</token>
+
+      
+
+      
+
+          <long_desc isprivate="0">
+            <commentid>4</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:47:01 +0700</bug_when>
+            <thetext>1.Nhập loại phòng &quot;C&quot;
+2.Nhập số lượng người &quot;4&quot;
+3. Nhập ngày đến &quot;01/01/2016&quot;
+4.Nhập ngày đi &quot;02/01/2016&quot;
+5.Nhập tiền dịch vụ &quot;4.000.000&quot;</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>5</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:47:44 +0700</bug_when>
+            <thetext>Tính tổng tiền sai</thetext>
+          </long_desc>
+      
+      
+
+    </bug>
+    <bug>
+          <bug_id>3</bug_id>
+          
+          <creation_ts>2016-04-24 08:48:00 +0700</creation_ts>
+          <short_desc>Chương trình sập  khi loại phòng không thuộc loại A, B, C, D</short_desc>
+          <delta_ts>2016-04-24 08:49:30 +0700</delta_ts>
+          <reporter_accessible>1</reporter_accessible>
+          <cclist_accessible>1</cclist_accessible>
+          <classification_id>1</classification_id>
+          <classification>Unclassified</classification>
+          <product>Tính tổng tiền phòng</product>
+          <component>Tổng tiền</component>
+          <version>1.0</version>
+          <rep_platform>PC</rep_platform>
+          <op_sys>Windows</op_sys>
+          <bug_status>CONFIRMED</bug_status>
+          
+          
+          
+          
+          
+          
+          <priority>---</priority>
+          <bug_severity>enhancement</bug_severity>
+          <target_milestone>---</target_milestone>
+          
+          
+          <everconfirmed>1</everconfirmed>
+          <reporter name="Vu Manh Hung">1461390@gmail.com</reporter>
+          <assigned_to name="Vu Manh Hung">1461390@gmail.com</assigned_to>
+          
+          <estimated_time>0.00</estimated_time>
+          <remaining_time>0.00</remaining_time>
+          <actual_time>0.00</actual_time>
+          
+
+      
+          <token>1461463660-f75758c9f89f3423dc0bde44f4bc6dba</token>
+
+      
+
+      
+
+          <long_desc isprivate="0">
+            <commentid>6</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:48:35 +0700</bug_when>
+            <thetext>1.Nhập loại phòng &quot;D&quot;
+2.Nhập số lượng người &quot;1&quot;
+3. Nhập ngày đến &quot;01/01/2016&quot;
+4.Nhập ngày đi &quot;02/01/2016&quot;
+5.Nhập tiền dịch vụ &quot;500.000&quot;</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>7</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:49:30 +0700</bug_when>
+            <thetext>Nhập loại phòng không thuộc loại A, B, C</thetext>
+          </long_desc>
+      
+      
+
+    </bug>
+    <bug>
+          <bug_id>4</bug_id>
+          
+          <creation_ts>2016-04-24 08:50:00 +0700</creation_ts>
+          <short_desc>Chương trình bị sập khi số lượng người không thuộc số tự nhiên</short_desc>
+          <delta_ts>2016-04-24 08:50:59 +0700</delta_ts>
+          <reporter_accessible>1</reporter_accessible>
+          <cclist_accessible>1</cclist_accessible>
+          <classification_id>1</classification_id>
+          <classification>Unclassified</classification>
+          <product>Tính tổng tiền phòng</product>
+          <component>Tổng tiền</component>
+          <version>1.0</version>
+          <rep_platform>PC</rep_platform>
+          <op_sys>Windows</op_sys>
+          <bug_status>CONFIRMED</bug_status>
+          
+          
+          
+          
+          
+          
+          <priority>---</priority>
+          <bug_severity>enhancement</bug_severity>
+          <target_milestone>---</target_milestone>
+          
+          
+          <everconfirmed>1</everconfirmed>
+          <reporter name="Vu Manh Hung">1461390@gmail.com</reporter>
+          <assigned_to name="Vu Manh Hung">1461390@gmail.com</assigned_to>
+          
+          <estimated_time>0.00</estimated_time>
+          <remaining_time>0.00</remaining_time>
+          <actual_time>0.00</actual_time>
+          
+
+      
+          <token>1461463660-595ed761e687f2d31e351ff066f754c2</token>
+
+      
+
+      
+
+          <long_desc isprivate="0">
+            <commentid>8</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:50:33 +0700</bug_when>
+            <thetext>1.Nhập loại phòng &quot;A&quot;
+2.Nhập số lượng người &quot;3.6&quot;
+3. Nhập ngày đến &quot;01/01/2016&quot;
+4.Nhập ngày đi &quot;02/01/2016&quot;
+5.Nhập tiền dịch vụ &quot;500.000&quot;</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>9</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:50:59 +0700</bug_when>
+            <thetext>Nhập số lượng người không thuộc số tự nhiên</thetext>
+          </long_desc>
+      
+      
+
+    </bug>
+    <bug>
+          <bug_id>5</bug_id>
+          
+          <creation_ts>2016-04-24 08:51:00 +0700</creation_ts>
+          <short_desc>Tính tổng tiền bình thường khi số lượng người nhỏ hơn hoặc bằng 0</short_desc>
+          <delta_ts>2016-04-24 08:52:20 +0700</delta_ts>
+          <reporter_accessible>1</reporter_accessible>
+          <cclist_accessible>1</cclist_accessible>
+          <classification_id>1</classification_id>
+          <classification>Unclassified</classification>
+          <product>Tính tổng tiền phòng</product>
+          <component>Tổng tiền</component>
+          <version>1.0</version>
+          <rep_platform>PC</rep_platform>
+          <op_sys>Windows</op_sys>
+          <bug_status>CONFIRMED</bug_status>
+          
+          
+          
+          
+          
+          
+          <priority>---</priority>
+          <bug_severity>normal</bug_severity>
+          <target_milestone>---</target_milestone>
+          
+          
+          <everconfirmed>1</everconfirmed>
+          <reporter name="Vu Manh Hung">1461390@gmail.com</reporter>
+          <assigned_to name="Vu Manh Hung">1461390@gmail.com</assigned_to>
+          
+          <estimated_time>0.00</estimated_time>
+          <remaining_time>0.00</remaining_time>
+          <actual_time>0.00</actual_time>
+          
+
+      
+          <token>1461463660-417ff1daa0c12fdaa6f47f962ff26ce8</token>
+
+      
+
+      
+
+          <long_desc isprivate="0">
+            <commentid>10</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:51:48 +0700</bug_when>
+            <thetext>1.Nhập loại phòng &quot;A&quot;
+2.Nhập số lượng người &quot;-1&quot;
+3. Nhập ngày đến &quot;01/01/2016&quot;
+4.Nhập ngày đi &quot;02/01/2016&quot;
+5.Nhập tiền dịch vụ &quot;500.000&quot;</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>11</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:52:20 +0700</bug_when>
+            <thetext>Nhập số lượng người nhỏ hơn 0</thetext>
+          </long_desc>
+      
+      
+
+    </bug>
+    <bug>
+          <bug_id>6</bug_id>
+          
+          <creation_ts>2016-04-24 08:53:00 +0700</creation_ts>
+          <short_desc>Tính tổng tiền bình thường khi số lượng người lớn hơn 4</short_desc>
+          <delta_ts>2016-04-24 08:53:48 +0700</delta_ts>
+          <reporter_accessible>1</reporter_accessible>
+          <cclist_accessible>1</cclist_accessible>
+          <classification_id>1</classification_id>
+          <classification>Unclassified</classification>
+          <product>Tính tổng tiền phòng</product>
+          <component>Tổng tiền</component>
+          <version>1.0</version>
+          <rep_platform>PC</rep_platform>
+          <op_sys>Windows</op_sys>
+          <bug_status>CONFIRMED</bug_status>
+          
+          
+          
+          
+          
+          
+          <priority>---</priority>
+          <bug_severity>normal</bug_severity>
+          <target_milestone>---</target_milestone>
+          
+          
+          <everconfirmed>1</everconfirmed>
+          <reporter name="Vu Manh Hung">1461390@gmail.com</reporter>
+          <assigned_to name="Vu Manh Hung">1461390@gmail.com</assigned_to>
+          
+          <estimated_time>0.00</estimated_time>
+          <remaining_time>0.00</remaining_time>
+          <actual_time>0.00</actual_time>
+          
+
+      
+          <token>1461463660-7ae7ab4d08f4b85a494b2d2dd2e36b31</token>
+
+      
+
+      
+
+          <long_desc isprivate="0">
+            <commentid>12</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:53:08 +0700</bug_when>
+            <thetext>1.Nhập loại phòng &quot;A&quot;
+2.Nhập số lượng người &quot;5&quot;
+3. Nhập ngày đến &quot;01/01/2016&quot;
+4.Nhập ngày đi &quot;02/01/2016&quot;
+5.Nhập tiền dịch vụ &quot;500.000&quot;</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>13</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:53:48 +0700</bug_when>
+            <thetext>Nhập số lượng người lớn hơn 4</thetext>
+          </long_desc>
+      
+      
+
+    </bug>
+    <bug>
+          <bug_id>7</bug_id>
+          
+          <creation_ts>2016-04-24 08:54:00 +0700</creation_ts>
+          <short_desc>Tính tổng tiền bình thường khi ngày đi nhỏ hơn ngày đến</short_desc>
+          <delta_ts>2016-04-24 08:55:22 +0700</delta_ts>
+          <reporter_accessible>1</reporter_accessible>
+          <cclist_accessible>1</cclist_accessible>
+          <classification_id>1</classification_id>
+          <classification>Unclassified</classification>
+          <product>Tính tổng tiền phòng</product>
+          <component>Tổng tiền</component>
+          <version>1.0</version>
+          <rep_platform>PC</rep_platform>
+          <op_sys>Windows</op_sys>
+          <bug_status>CONFIRMED</bug_status>
+          
+          
+          
+          
+          
+          
+          <priority>---</priority>
+          <bug_severity>enhancement</bug_severity>
+          <target_milestone>---</target_milestone>
+          
+          
+          <everconfirmed>1</everconfirmed>
+          <reporter name="Vu Manh Hung">1461390@gmail.com</reporter>
+          <assigned_to name="Vu Manh Hung">1461390@gmail.com</assigned_to>
+          
+          <estimated_time>0.00</estimated_time>
+          <remaining_time>0.00</remaining_time>
+          <actual_time>0.00</actual_time>
+          
+
+      
+          <token>1461463660-aaf1ee52a96de5d6f67683c3ea21187a</token>
+
+      
+
+      
+
+          <long_desc isprivate="0">
+            <commentid>14</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:54:53 +0700</bug_when>
+            <thetext>1.Nhập loại phòng &quot;A&quot;
+2.Nhập số lượng người &quot;1&quot;
+3. Nhập ngày đến &quot;15/02/2016&quot;
+4.Nhập ngày đi &quot;10/02/2016&quot;
+5.Nhập tiền dịch vụ &quot;500.000</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>15</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:55:22 +0700</bug_when>
+            <thetext>Nhập ngày đi nhỏ hơn ngày đến</thetext>
+          </long_desc>
+      
+      
+
+    </bug>
+    <bug>
+          <bug_id>8</bug_id>
+          
+          <creation_ts>2016-04-24 08:55:00 +0700</creation_ts>
+          <short_desc>Chương trình bị sập khi tiền dịch vụ là số thập phân</short_desc>
+          <delta_ts>2016-04-24 08:56:27 +0700</delta_ts>
+          <reporter_accessible>1</reporter_accessible>
+          <cclist_accessible>1</cclist_accessible>
+          <classification_id>1</classification_id>
+          <classification>Unclassified</classification>
+          <product>Tính tổng tiền phòng</product>
+          <component>Tổng tiền</component>
+          <version>1.0</version>
+          <rep_platform>PC</rep_platform>
+          <op_sys>Windows</op_sys>
+          <bug_status>CONFIRMED</bug_status>
+          
+          
+          
+          
+          
+          
+          <priority>---</priority>
+          <bug_severity>normal</bug_severity>
+          <target_milestone>---</target_milestone>
+          
+          
+          <everconfirmed>1</everconfirmed>
+          <reporter name="Vu Manh Hung">1461390@gmail.com</reporter>
+          <assigned_to name="Vu Manh Hung">1461390@gmail.com</assigned_to>
+          
+          <estimated_time>0.00</estimated_time>
+          <remaining_time>0.00</remaining_time>
+          <actual_time>0.00</actual_time>
+          
+
+      
+          <token>1461463660-d373075a5b328fd04ddd3dd014156189</token>
+
+      
+
+      
+
+          <long_desc isprivate="0">
+            <commentid>16</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:55:52 +0700</bug_when>
+            <thetext>1.Nhập loại phòng &quot;A&quot;
+2.Nhập số lượng người &quot;1&quot;
+3. Nhập ngày đến &quot;01/01/2016&quot;
+4.Nhập ngày đi &quot;02/01/2016&quot;
+5.Nhập tiền dịch vụ &quot;500.000,21&quot;</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>17</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:56:27 +0700</bug_when>
+            <thetext>Nhập tiền dịch vụ là số thập phân</thetext>
+          </long_desc>
+      
+      
+
+    </bug>
+    <bug>
+          <bug_id>9</bug_id>
+          
+          <creation_ts>2016-04-24 08:57:00 +0700</creation_ts>
+          <short_desc>Tính tổng tiền bình thường khi tiền dịch vụ âm</short_desc>
+          <delta_ts>2016-04-24 08:57:27 +0700</delta_ts>
+          <reporter_accessible>1</reporter_accessible>
+          <cclist_accessible>1</cclist_accessible>
+          <classification_id>1</classification_id>
+          <classification>Unclassified</classification>
+          <product>Tính tổng tiền phòng</product>
+          <component>Tổng tiền</component>
+          <version>1.0</version>
+          <rep_platform>PC</rep_platform>
+          <op_sys>Windows</op_sys>
+          <bug_status>CONFIRMED</bug_status>
+          
+          
+          
+          
+          
+          
+          <priority>---</priority>
+          <bug_severity>enhancement</bug_severity>
+          <target_milestone>---</target_milestone>
+          
+          
+          <everconfirmed>1</everconfirmed>
+          <reporter name="Vu Manh Hung">1461390@gmail.com</reporter>
+          <assigned_to name="Vu Manh Hung">1461390@gmail.com</assigned_to>
+          
+          <estimated_time>0.00</estimated_time>
+          <remaining_time>0.00</remaining_time>
+          <actual_time>0.00</actual_time>
+          
+
+      
+          <token>1461463661-ea0afbfac43172ac16d45dd39ff38ee8</token>
+
+      
+
+      
+
+          <long_desc isprivate="0">
+            <commentid>18</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:57:12 +0700</bug_when>
+            <thetext>1.Nhập loại phòng &quot;A&quot;
+2.Nhập số lượng người &quot;1&quot;
+3. Nhập ngày đến &quot;01/01/2016&quot;
+4.Nhập ngày đi &quot;02/01/2016&quot;
+5.Nhập tiền dịch vụ &quot;-500.000&quot;</thetext>
+          </long_desc>
+          <long_desc isprivate="0">
+            <commentid>19</commentid>
+            <who name="Vu Manh Hung">1461390@gmail.com</who>
+            <bug_when>2016-04-24 08:57:27 +0700</bug_when>
+            <thetext>Nhập tiền dịch vụ âm</thetext>
+          </long_desc>
+      
+      
+
+    </bug>
+
+</bugzilla>
